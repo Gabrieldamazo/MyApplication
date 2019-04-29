@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/compartilhar"
+        android:icon="@drawable/ic_share_dp"
+        android:title="Compartilhar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/cadastrar"
+        android:icon="@drawable/ic_person_dp"
+        android:title="Cadastrar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/sobre"
+        android:icon="@drawable/ic_info_dp"
+        android:title="Sobre"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mensagem"
+        android:icon="@drawable/ic_message_dp"
+        android:title="Mensagem"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/aviso"
+        android:icon="@drawable/ic_notifications_dp"
+        android:title="Aviso"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ajuda"
+        android:icon="@drawable/ic_live_help_dp"
+        android:title="Ajuda"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/suporte"
+        android:icon="@drawable/ic_contact_phone_dp"
+        android:title="Suporte"
+        app:showAsAction="never" />
+
+
+</menu>
